@@ -1,0 +1,110 @@
+.skills-container {
+  width: 40vw;
+  height: 22rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-c {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-container span {
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.skills-container span.active {
+  margin: 0 auto;
+  width: 14ch;
+  animation: typing 2s steps(22), blink .6s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.each-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .skills-container {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .skills-container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .skills-container {
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .skills-container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .skills-container {
+    width: 90vw;
+    font-size: 0.9rem;
+    height: 22rem;
+  }
+  i {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .skills-container {
+    width: 95vw;
+    font-size: 0.9rem;
+    height: 21rem;
+  }
+  i {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skills-container {
+    width: 95vw;
+    font-size: 0.8rem;
+    height: 20rem;
+  }
+  i {
+    font-size: 1.7rem !important;
+  }
+}
+
+@media screen and (max-height: 586px) {
+  .skills-container {
+    height: 20rem;
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-height: 293px) {
+    .skills-container {
+      margin-top: 30rem;
+    }
+  }
+  

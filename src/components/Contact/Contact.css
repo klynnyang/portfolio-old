@@ -1,0 +1,52 @@
+.contact-container {
+    width: 30rem;
+    height: 34rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+  }
+
+.contact-me {
+    display:flex;
+    justify-content: center;
+    padding-top:1.5rem;
+    font-weight: 1000;
+    font-size:1.5rem
+}
+
+.form-contact-me{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.link-icons {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 708px) {
+    .contact-container{
+        max-width: 60vw;
+    }
+   }
+
+@media screen and (max-width: 658px) {
+    .contact-container{
+        max-width: 85vw;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-height: 586px) {
+    .contact-container {
+      margin-top: 10rem;
+    }
+  }
+
+  @media screen and (max-height: 293px) {
+    .contact-container {
+      margin-top: 20rem;
+    }
+  }

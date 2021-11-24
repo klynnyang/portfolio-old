@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white !important
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.projects{
+  background: linear-gradient(to bottom, #0e3254, #0d3050) fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background-image: url("./assets/bg-nightsky-new.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top:60px;
+}
+
+.contact{
+  background: url("./assets/bg-bottom.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.skills{
+  background: linear-gradient(to bottom, #0e3254, #0d3050) fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
